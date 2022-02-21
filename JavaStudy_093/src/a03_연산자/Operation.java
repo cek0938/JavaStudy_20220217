@@ -9,9 +9,12 @@ public class Operation {
 		
 		//++(선증가)score
 		//score++(후증가->이다음에 증가)
-		System.out.println(score++);
-		System.out.println(score);//앞의 후증가에 의해서 더해짐(이미 증가되어있음)
 
-	}
+		//앞의 후증가에 의해서 더해짐(이미 증가되어있음)
+
+		System.out.println(score++);
+	}   
+	
+	
 
 }
